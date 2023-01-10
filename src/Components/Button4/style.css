@@ -1,0 +1,24 @@
+.button4 {      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; 
+    user-select: none;   
+    outline: #DB2525;
+    color: #DB2525;
+    background-color: #fff;
+    border: 1px solid #DB2525;    
+    border-radius: 8px;
+    min-width: 178px;
+    min-height: 48px;
+    max-height: 48px;     
+    transition: all 0.6s;
+   
+}
+
+.button4:hover {background-color: #d4d4d4}
+

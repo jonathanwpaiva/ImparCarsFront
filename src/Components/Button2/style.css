@@ -1,0 +1,24 @@
+.button2 {      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none; 
+    user-select: none;   
+    outline: #E76316;
+    color: #E76316;
+    background-color: #fff;
+    border: 1px solid #E76316;    
+    border-radius: 8px;
+    min-width: 178px;
+    min-height: 48px;
+    max-height: 48px;     
+    transition: all 0.6s;
+   
+}
+
+.button2:hover {background-color: #d4d4d4}
+

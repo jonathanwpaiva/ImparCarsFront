@@ -1,0 +1,175 @@
+.content-container {
+    margin-bottom: 30px;
+}
+
+.background {
+    height: 260px;
+    background-image: url('../../Assets/Imgs/fundo-busca@2x.png');
+    background-size: 100% 100%;
+    background-position: center;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    padding-top: 130px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.content-header {
+    margin-left: 20%;
+    margin-right: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-header h1 {
+    color: #5F1478;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-muli);
+    font: normal normal normal 32px/40px Muli;
+}
+
+.content {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.create-card-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    outline: 0;
+    width: 500px;
+    height: 620px;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+
+.create-card-modal-content-container {
+    background-color: white;
+    width: 500px;
+    height: 620px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #E5E5E5;
+    border: 1px solid #E4E4E4;
+    padding: 30px;
+}
+
+.create-card-modal-content-container .title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.create-card-modal-content-container .title h1 {
+    color: #5F1478;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-muli);
+    font: normal normal normal 32px/40px Muli;
+    margin-left: 20px;
+}
+
+.create-card-modal-content-container .create-card-horizontal-line {
+    margin-top: 20px;
+    border-bottom: 1px solid #D4D4D4;
+    height: 5px;
+
+}
+
+.create-card-modal-content-container .create-card-modal-input input {
+    width: 96%;
+    height: 55px;
+    border-radius: 8px;
+    padding-left: 12px;
+    border: 1px solid #B9B9B9;
+}
+
+.create-card-modal-content-container .create-card-modal-input p {
+    color: #454545;
+    font-weight: 500;
+}
+
+.create-card-modal-content-container .create-card-modal-file input { 
+    display: none;    
+}
+
+.create-card-modal-content-container .create-card-modal-file .custom-file-p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    border-radius: 8px;
+    padding-left: 12px;
+    border: 1px solid #B9B9B9;    
+    color: #757575;
+    padding-right: 5px;
+    cursor: default;
+    
+}
+
+.create-card-modal-content-container .create-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.delete-card-modal {
+    height: 100%;
+    outline: 0;
+    width: 300px;
+    height: 300px;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+
+.delete-card-modal-content-container {
+   
+    background-color: white;
+    width: 400px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #E5E5E5;
+    border: 1px solid #E4E4E4;
+    padding: 30px;
+}
+
+.delete-card-modal-content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.delete-card-modal-content img {
+    height: 100px;
+}
+
+.delete-card-modal-content h1 {
+    color: #DB2525;
+}
+
+.delete-card-modal-horizontal-line {
+  
+    margin-top: 20px;
+    border-bottom: 1px solid #D4D4D4;
+    width: 100%;
+}
+
+.delete-card-modal-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.view-more{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 50%;
+}
